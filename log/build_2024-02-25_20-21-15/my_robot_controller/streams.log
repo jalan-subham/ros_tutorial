@@ -1,0 +1,42 @@
+[1.204s] Invoking command in '/home/jalan/ros2_ws/build/my_robot_controller': PYTHONPATH=/home/jalan/ros2_ws/build/my_robot_controller/prefix_override:/home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jalan/ros2_ws/build/my_robot_controller/build
+[1.534s] running develop
+[1.702s] Removing /home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my-robot-controller.egg-link (link to .)
+[1.738s] Invoked command in '/home/jalan/ros2_ws/build/my_robot_controller' returned '0': PYTHONPATH=/home/jalan/ros2_ws/build/my_robot_controller/prefix_override:/home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jalan/ros2_ws/build/my_robot_controller/build
+[1.740s] Invoking command in '/home/jalan/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/jalan/ros2_ws/build/my_robot_controller/prefix_override:/home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/jalan/ros2_ws/build/my_robot_controller/build install --record /home/jalan/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed
+[1.995s] running egg_info
+[1.996s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[1.996s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[1.996s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[1.996s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[1.997s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[1.998s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[2.030s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[2.030s] running build
+[2.030s] running build_py
+[2.031s] copying my_robot_controller/get_pose_data.py -> /home/jalan/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[2.031s] copying my_robot_controller/turtle_controller.py -> /home/jalan/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[2.031s] copying my_robot_controller/first_node.py -> /home/jalan/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[2.032s] copying my_robot_controller/draw_circle.py -> /home/jalan/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[2.047s] running install
+[2.048s] running install_lib
+[2.049s] creating /home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.049s] copying /home/jalan/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/get_pose_data.py -> /home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.049s] copying /home/jalan/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/turtle_controller.py -> /home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.050s] copying /home/jalan/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/first_node.py -> /home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.050s] copying /home/jalan/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.050s] copying /home/jalan/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/draw_circle.py -> /home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[2.050s] byte-compiling /home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/get_pose_data.py to get_pose_data.cpython-310.pyc
+[2.050s] byte-compiling /home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/turtle_controller.py to turtle_controller.cpython-310.pyc
+[2.051s] byte-compiling /home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/first_node.py to first_node.cpython-310.pyc
+[2.051s] byte-compiling /home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[2.051s] byte-compiling /home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/draw_circle.py to draw_circle.cpython-310.pyc
+[2.051s] running install_data
+[2.052s] running install_egg_info
+[2.053s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[2.070s] running install_scripts
+[2.086s] Installing draw_circle script to /home/jalan/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[2.086s] Installing node_name script to /home/jalan/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[2.087s] Installing pose_data script to /home/jalan/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[2.087s] Installing turtle_control script to /home/jalan/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[2.087s] writing list of installed files to '/home/jalan/ros2_ws/build/my_robot_controller/install.log'
+[2.116s] Invoked command in '/home/jalan/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/jalan/ros2_ws/build/my_robot_controller/prefix_override:/home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/jalan/ros2_ws/build/my_robot_controller/build install --record /home/jalan/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed

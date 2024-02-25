@@ -1,0 +1,35 @@
+[1.561s] Invoking command in '/home/jalan/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/jalan/ros2_ws/build/my_robot_controller/prefix_override:/home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/jalan/ros2_ws/build/my_robot_controller/build install --record /home/jalan/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed
+[1.887s] running egg_info
+[1.888s] creating ../../build/my_robot_controller/my_robot_controller.egg-info
+[1.888s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[1.889s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[1.889s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[1.889s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[1.889s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[1.889s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.891s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.892s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.892s] running build
+[1.893s] running build_py
+[1.893s] creating /home/jalan/ros2_ws/build/my_robot_controller/build
+[1.893s] creating /home/jalan/ros2_ws/build/my_robot_controller/build/lib
+[1.893s] creating /home/jalan/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[1.893s] copying my_robot_controller/__init__.py -> /home/jalan/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[1.893s] running install
+[1.966s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.966s]   warnings.warn(
+[1.966s] running install_lib
+[1.968s] creating /home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.968s] copying /home/jalan/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.969s] byte-compiling /home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[1.969s] running install_data
+[1.970s] creating /home/jalan/ros2_ws/install/my_robot_controller/share/ament_index
+[1.970s] creating /home/jalan/ros2_ws/install/my_robot_controller/share/ament_index/resource_index
+[1.970s] creating /home/jalan/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.970s] copying resource/my_robot_controller -> /home/jalan/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.971s] copying package.xml -> /home/jalan/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[1.971s] running install_egg_info
+[1.973s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[1.974s] running install_scripts
+[2.005s] writing list of installed files to '/home/jalan/ros2_ws/build/my_robot_controller/install.log'
+[2.065s] Invoked command in '/home/jalan/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/jalan/ros2_ws/build/my_robot_controller/prefix_override:/home/jalan/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/jalan/ros2_ws/build/my_robot_controller/build install --record /home/jalan/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed

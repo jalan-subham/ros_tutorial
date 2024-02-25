@@ -1,0 +1,6 @@
+[console_scripts]
+draw_circle = my_robot_controller.draw_circle:main
+node_name = my_robot_controller.first_node:main
+pose_data = my_robot_controller.get_pose_data:main
+turtle_control = my_robot_controller.turtle_controller:main
+
